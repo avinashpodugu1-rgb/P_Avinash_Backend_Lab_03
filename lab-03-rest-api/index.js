@@ -42,8 +42,8 @@ app.use((err, req, res, next) => {
 async function startServer() {
   try {
     await openDatabase();
-    app.listen(PORT, () => {
-      console.log(`Books REST API running at http://localhost:${PORT}`);
+    app.listen(PORT, '0.0.0.0', () => {
+      console.log(`Books REST API running at http://0.0.0.0:${PORT}`);
     });
   } catch (error) {
     console.error('Unable to start server:', error.message);

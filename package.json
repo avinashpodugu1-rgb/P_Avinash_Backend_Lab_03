@@ -1,8 +1,11 @@
 {
-  "name": "bdf-lab-03-rest-api-completed",
+  "name": "p-avinash-backend-lab-03",
   "version": "1.0.0",
   "description": "Lab 3 - REST API, query parameters, validation and debugging",
   "scripts": {
+    "install": "npm --prefix lab-03-rest-api install",
+    "postinstall": "npm --prefix lab-03-rest-api install",
+    "build": "npm --prefix lab-03-rest-api install",
     "start": "npm --prefix lab-03-rest-api start",
     "dev": "npm --prefix lab-03-rest-api run dev"
   }

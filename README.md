@@ -2,6 +2,8 @@
 
 Complete Node.js + Express + SQLite implementation of Lab 3.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/avinashpodugu1-rgb/P_Avinash_Backend_Lab_03)
+
 ## Quick Start
 
 ### 1. Install Dependencies
@@ -29,3 +31,4 @@ The server will start at `http://localhost:3000`.
 - **Postman Collection & Tests**: Pre-configured collection with 21 automated test cases.
 
 For complete documentation and screenshots, refer to [`lab-03-rest-api/README.md`](./lab-03-rest-api/README.md).
+

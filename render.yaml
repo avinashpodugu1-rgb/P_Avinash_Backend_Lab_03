@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: p-avinash-backend-lab-03
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm --prefix lab-03-rest-api install
+    startCommand: npm --prefix lab-03-rest-api start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
