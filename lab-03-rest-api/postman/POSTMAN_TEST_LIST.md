@@ -1,6 +1,7 @@
 # Postman Test List
 
-Base URL: `http://localhost:3000`
+- **Live Render Base URL:** `https://p-avinash-backend-lab-03.onrender.com`
+- **Localhost Base URL:** `http://localhost:3000`
 
 | # | Request | Expected |
 |---|---|---|

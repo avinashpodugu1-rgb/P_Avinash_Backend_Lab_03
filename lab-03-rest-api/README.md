@@ -2,6 +2,35 @@
 
 A complete Node.js + Express + SQLite implementation of Lab 3, continued from the Lab 2 `book` table approach.
 
+---
+
+## 🌐 Live Deployed API on Render
+
+- **Primary Live Base URL:** [https://p-avinash-backend-lab-03.onrender.com/](https://p-avinash-backend-lab-03.onrender.com/)
+- **Status:** Live & Active 🟢
+
+### 🔗 Direct Browser-Clickable Live Links
+
+| Endpoint Description | Method | Live URL |
+|---|---|---|
+| **Root Health & Endpoint Index** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/](https://p-avinash-backend-lab-03.onrender.com/) |
+| **All Books (Default List)** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/books](https://p-avinash-backend-lab-03.onrender.com/books) |
+| **Get Book by ID (`1`)** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/books/1](https://p-avinash-backend-lab-03.onrender.com/books/1) |
+| **Search Partial Title (`the`)** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/books?search_q=the](https://p-avinash-backend-lab-03.onrender.com/books?search_q=the) |
+| **Sort by Price Ascending** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/books?order_by=price&order=ASC](https://p-avinash-backend-lab-03.onrender.com/books?order_by=price&order=ASC) |
+| **Sort by Price Descending** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/books?order_by=price&order=DESC](https://p-avinash-backend-lab-03.onrender.com/books?order_by=price&order=DESC) |
+| **Sort by Title Descending** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/books?order_by=title&order=DESC](https://p-avinash-backend-lab-03.onrender.com/books?order_by=title&order=DESC) |
+| **Pagination: First 5 Books** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/books?limit=5&offset=0](https://p-avinash-backend-lab-03.onrender.com/books?limit=5&offset=0) |
+| **Pagination: Next 5 Books** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/books?limit=5&offset=5](https://p-avinash-backend-lab-03.onrender.com/books?limit=5&offset=5) |
+| **Price Filtering (₹100–₹500)** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/books?min_price=100&max_price=500](https://p-avinash-backend-lab-03.onrender.com/books?min_price=100&max_price=500) |
+| **Combined Query** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/books?search_q=the&order_by=price&order=DESC&min_price=200&max_price=600&limit=5&offset=0](https://p-avinash-backend-lab-03.onrender.com/books?search_q=the&order_by=price&order=DESC&min_price=200&max_price=600&limit=5&offset=0) |
+| **Error Test: Missing Book (404)** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/books/99999](https://p-avinash-backend-lab-03.onrender.com/books/99999) |
+| **Error Test: Invalid ID (400)** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/books/abc](https://p-avinash-backend-lab-03.onrender.com/books/abc) |
+| **Error Test: Invalid Query (400)** | `GET` | [https://p-avinash-backend-lab-03.onrender.com/books?order_by=invalid](https://p-avinash-backend-lab-03.onrender.com/books?order_by=invalid) |
+| **Error Test: Undefined Route (404)**| `GET` | [https://p-avinash-backend-lab-03.onrender.com/unknown-route](https://p-avinash-backend-lab-03.onrender.com/unknown-route) |
+
+---
+
 ## Requirements covered
 
 - Resource-based noun endpoint: `/books`; HTTP methods represent actions.
