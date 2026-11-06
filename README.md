@@ -1,5 +1,9 @@
 # BDF Lab 3 - REST API, Query Parameters, Validation & Debugging
 
+**Name: ** P.Avinash
+** Registration: **252U1R1194
+** Class & sec: ** CSE-2D
+
 Complete Node.js + Express + SQLite implementation of Lab 3.
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/avinashpodugu1-rgb/P_Avinash_Backend_Lab_03)
